@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "pergunta": "O que é o MEI?",
+    "resposta": "MEI (Microempreendedor Individual) é uma categoria simplificada de formalização para quem trabalha por conta própria, criada pela Lei Complementar 128/2008. Permite ter CNPJ, emitir nota fiscal e ter acesso a benefícios previdenciários, com tributação fixa e mensal.",
+    "keywords": ["mei", "o que é", "microempreendedor", "definição"]
+  },
+  {
+    "id": 2,
+    "pergunta": "Qual o limite de faturamento anual do MEI?",
+    "resposta": "O limite de faturamento do MEI em 2026 é de R$ 81.000,00 por ano, o que equivale a uma média de referência de R$ 6.750,00 por mês. Não existe teto mensal fixo — o que importa é a soma do ano inteiro não ultrapassar R$ 81.000,00.",
+    "keywords": ["limite", "faturamento", "teto", "quanto posso faturar", "81 mil"]
+  },
+  {
+    "id": 3,
+    "pergunta": "Existe um limite mensal de faturamento para o MEI?",
+    "resposta": "Não existe um limite mensal fixo. O limite é anual (R$ 81.000,00). Você pode faturar mais em um mês e menos em outro, desde que a soma do ano não ultrapasse o teto anual.",
+    "keywords": ["limite mensal", "por mês", "faturar mensal"]
+  },
+  {
+    "id": 4,
+    "pergunta": "O que acontece se eu abrir o MEI no meio do ano? O limite muda?",
+    "resposta": "Sim. Se você abrir o MEI depois de janeiro, o limite de faturamento é proporcional: multiplique R$ 6.750,00 pelo número de meses restantes no ano, incluindo o mês de abertura.",
+    "keywords": ["abrir no meio do ano", "limite proporcional", "meses de atividade"]
+  },
+  {
+    "id": 5,
+    "pergunta": "O que é o DAS do MEI?",
+    "resposta": "DAS (Documento de Arrecadação do Simples Nacional) é a guia mensal de pagamento do MEI, que reúne os impostos e a contribuição previdenciária em um valor fixo. O valor varia de aproximadamente R$ 82,05 a R$ 87,05 por mês, dependendo da atividade exercida.",
+    "keywords": ["das", "o que é das", "guia de pagamento", "imposto mei"]
+  },
+  {
+    "id": 6,
+    "pergunta": "Até quando devo pagar o DAS do MEI?",
+    "resposta": "O DAS deve ser pago até o dia 20 de cada mês, referente ao mês anterior. Se o dia 20 cair em fim de semana ou feriado, o prazo passa para o próximo dia útil.",
+    "keywords": ["prazo das", "quando pagar", "vencimento", "dia 20"]
+  },
+  {
+    "id": 7,
+    "pergunta": "O que acontece se eu atrasar o pagamento do DAS?",
+    "resposta": "O atraso gera juros e multa sobre o valor da guia, além de poder impedir a emissão de novas guias sem regularização. O atraso recorrente também compromete o acesso a benefícios do INSS, como auxílio-doença e aposentadoria.",
+    "keywords": ["atrasei o das", "multa", "juros", "não paguei"]
+  },
+  {
+    "id": 8,
+    "pergunta": "O que é a DASN-SIMEI e quando devo entregar?",
+    "resposta": "A DASN-SIMEI é a Declaração Anual do Simples Nacional para o MEI, que informa o faturamento total do ano anterior. O prazo de entrega é até 31 de maio de cada ano.",
+    "keywords": ["dasn-simei", "declaração anual", "prazo declaração", "31 de maio"]
+  },
+  {
+    "id": 9,
+    "pergunta": "O que acontece se eu ultrapassar o limite de faturamento em até 20%?",
+    "resposta": "Se o faturamento anual ficar entre R$ 81.000,01 e R$ 97.200,00 (até 20% acima do teto), você continua como MEI normalmente até dezembro, mas deve pagar um DAS complementar sobre o excedente. No ano seguinte, é necessário migrar para Microempresa (ME).",
+    "keywords": ["ultrapassei o limite", "excedi o faturamento", "20 por cento", "97200"]
+  },
+  {
+    "id": 10,
+    "pergunta": "O que acontece se eu ultrapassar o limite em mais de 20%?",
+    "resposta": "Se o faturamento anual ultrapassar R$ 97.200,00 (mais de 20% acima do teto), o desenquadramento do MEI é retroativo ao mês em que o limite foi excedido, com cobrança de tributos e possíveis multas e juros referentes a esse período.",
+    "keywords": ["desenquadramento retroativo", "ultrapassei muito", "mais de 20 por cento"]
+  },
+  {
+    "id": 11,
+    "pergunta": "O MEI pode ter funcionário?",
+    "resposta": "Sim, o MEI pode contratar no máximo 1 (um) funcionário, que deve receber salário mínimo ou o piso da categoria profissional, o que for maior.",
+    "keywords": ["funcionário", "contratar", "empregado", "posso ter funcionário"]
+  },
+  {
+    "id": 12,
+    "pergunta": "O MEI pode ter sócio?",
+    "resposta": "Não. O MEI é uma empresa individual, então não é permitido ter sócios. Para isso, seria necessário migrar para outro tipo de empresa, como Microempresa (ME) com mais de um titular.",
+    "keywords": ["sócio", "posso ter sócio", "parceria"]
+  },
+  {
+    "id": 13,
+    "pergunta": "Quando o MEI precisa emitir nota fiscal?",
+    "resposta": "O MEI deve emitir nota fiscal sempre que vender para outra empresa (pessoa jurídica). Para vendas a pessoas físicas (consumidor final), a emissão geralmente não é obrigatória, mas pode ser exigida dependendo do estado ou do tipo de atividade — o recomendado é sempre consultar o Portal do Empreendedor ou a prefeitura/estado local.",
+    "keywords": ["nota fiscal", "emitir nota", "quando emitir"]
+  },
+  {
+    "id": 14,
+    "pergunta": "Quais benefícios previdenciários o MEI tem direito?",
+    "resposta": "Ao pagar o DAS em dia, o MEI tem acesso a benefícios do INSS como aposentadoria por idade, auxílio-doença, salário-maternidade, auxílio-reclusão e pensão por morte para dependentes.",
+    "keywords": ["benefícios", "inss", "aposentadoria", "auxílio doença"]
+  },
+  {
+    "id": 15,
+    "pergunta": "Como faço para abrir um MEI?",
+    "resposta": "A abertura é feita gratuitamente pelo Portal do Empreendedor (www.gov.br/empresas-e-negocios/pt-br/empreendedor), usando CPF e dados pessoais básicos. O processo é rápido e o CNPJ costuma ser gerado na hora.",
+    "keywords": ["abrir mei", "como formalizar", "criar cnpj"]
+  },
+  {
+    "id": 16,
+    "pergunta": "Como faço para encerrar (dar baixa) no MEI?",
+    "resposta": "O cancelamento também é feito pelo Portal do Empreendedor, na opção de baixa de CNPJ. É importante estar em dia com o DAS e a DASN-SIMEI antes de encerrar, para evitar pendências futuras.",
+    "keywords": ["encerrar mei", "dar baixa", "cancelar cnpj", "fechar mei"]
+  },
+  {
+    "id": 17,
+    "pergunta": "Quais atividades podem ser MEI?",
+    "resposta": "Só podem ser MEI as ocupações que constam na lista oficial de atividades permitidas, definida pelo Comitê Gestor do Simples Nacional (CGSN). Profissões regulamentadas que exigem conselho de classe (como advogados e médicos) geralmente não podem ser MEI.",
+    "keywords": ["atividades permitidas", "posso ser mei", "profissão", "ocupação"]
+  },
+  {
+    "id": 18,
+    "pergunta": "Qual a diferença entre MEI e Microempresa (ME)?",
+    "resposta": "O MEI tem limite de R$ 81.000,00/ano, paga um valor fixo mensal (DAS) e não pode ter sócios. A Microempresa (ME) pode faturar até R$ 360.000,00/ano, permite sócios e paga impostos proporcionais ao faturamento dentro do Simples Nacional.",
+    "keywords": ["diferença mei me", "microempresa", "mei ou me"]
+  },
+  {
+    "id": 19,
+    "pergunta": "O limite do MEI é o mesmo para o MEI caminhoneiro?",
+    "resposta": "Não. O MEI caminhoneiro (transportador autônomo de cargas) tem um limite anual diferenciado de R$ 251.600,00, bem maior que o limite do MEI comum (R$ 81.000,00).",
+    "keywords": ["mei caminhoneiro", "transportador", "limite diferente"]
+  },
+  {
+    "id": 20,
+    "pergunta": "Onde posso pagar o DAS do MEI?",
+    "resposta": "O DAS pode ser gerado e pago pelo aplicativo ou site 'Meu MEI' ou pelo Portal do Simples Nacional, com pagamento via boleto, Pix ou débito automático, dependendo do banco.",
+    "keywords": ["onde pagar das", "gerar guia", "meu mei", "app mei"]
+  },
+  {
+    "id": 21,
+    "pergunta": "O que fazer se eu não conseguir pagar o DAS em dia por dificuldades financeiras?",
+    "resposta": "É possível negociar débitos em atraso, inclusive por meio de programas de renegociação lançados pelo governo, como o 'Desenrola MEI' (Edital nº 9/2026), que oferece condições especiais para regularizar dívidas acumuladas.",
+    "keywords": ["não consigo pagar", "dívida mei", "desenrola mei", "renegociar"]
+  },
+  {
+    "id": 22,
+    "pergunta": "O MEI precisa de contador?",
+    "resposta": "Não é obrigatório. O MEI tem obrigações simplificadas (DAS mensal e DASN-SIMEI anual) que podem ser feitas sem contador. Ainda assim, buscar orientação contábil pode ajudar em decisões mais complexas, como contratação de funcionário ou migração para ME.",
+    "keywords": ["preciso de contador", "contabilidade", "contador obrigatório"]
+  },
+  {
+    "id": 23,
+    "pergunta": "O faturamento bruto do MEI inclui todos os recebimentos, mesmo em dinheiro?",
+    "resposta": "Sim. O faturamento bruto considera todo valor recebido pela atividade, seja via Pix, cartão ou dinheiro em espécie, sem descontar despesas ou custos do negócio.",
+    "keywords": ["faturamento bruto", "pix", "dinheiro em espécie", "o que conta como faturamento"]
+  },
+  {
+    "id": 24,
+    "pergunta": "Posso ser MEI e ter carteira assinada (CLT) ao mesmo tempo?",
+    "resposta": "Sim, é permitido ser MEI e, ao mesmo tempo, ter um emprego com carteira assinada (CLT), desde que a atividade do MEI não seja a mesma exercida no emprego formal e não haja conflito de interesses com o empregador.",
+    "keywords": ["clt e mei", "carteira assinada", "posso ter emprego"]
+  },
+  {
+    "id": 25,
+    "pergunta": "O MEI pode ser sócio de outra empresa?",
+    "resposta": "Não. Para se manter como MEI, a pessoa não pode ser sócia, titular ou administradora de nenhuma outra empresa, MEI ou não.",
+    "keywords": ["sócio de outra empresa", "titular de outra empresa"]
+  }
+]

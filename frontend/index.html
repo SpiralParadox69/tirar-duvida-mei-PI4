@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tira-Dúvidas do MEI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="chat">
+    <header>
+      <h1>Tira-Dúvidas do MEI</h1>
+      <p>Tire dúvidas sobre DAS, limite de faturamento, nota fiscal e mais.</p>
+    </header>
+
+    <div id="mensagens" class="mensagens">
+      <div class="mensagem assistente">
+        Olá! Sou o assistente do MEI! Estou aqui para te ajudar
+      </div>
+    </div>
+
+    <form id="formulario" class="formulario">
+      <input
+        type="text"
+        id="pergunta"
+        placeholder="Digite sua dúvida sobre o MEI..."
+        maxlength="300"
+        autocomplete="off"
+        required
+      >
+      <button type="submit" id="botao">Enviar</button>
+    </form>
+
+    <footer>
+      Assistente informativo. Não substitui um contador nem orientação jurídica.
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -20,7 +20,7 @@ O assistente usa uma técnica de RAG simplificada: as perguntas do usuário são
 
 ## Status atual
 
-🟡 Em planejamento — C1 (relatório de escopo, justificativa, metodologia e comunidade impactada) entregue.
+🟡 Em planejamento — C2 (protótipo funcional, com testes automatizados e eval) entregue.
 
 ## Autor e Grupo:
 

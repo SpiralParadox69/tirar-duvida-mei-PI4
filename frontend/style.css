@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #eef2f7;
+  color: #1f2933;
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+}
+
+.chat {
+  width: 100%;
+  max-width: 640px;
+  height: calc(100vh - 32px);
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+header {
+  background: #e466d3;
+  color: #ffffff;
+  padding: 16px 20px;
+}
+
+header h1 {
+  margin: 0 0 4px;
+  font-size: 1.3rem;
+}
+
+header p {
+  margin: 0;
+  font-size: 0.9rem;
+  opacity: 0.9;
+}
+
+.mensagens {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mensagem {
+  max-width: 80%;
+  padding: 10px 14px;
+  border-radius: 12px;
+  line-height: 1.4;
+  white-space: pre-wrap;
+}
+
+.mensagem.usuario {
+  align-self: flex-end;
+  background: #e466d3;
+  color: #ffffff;
+}
+
+.mensagem.assistente {
+  align-self: flex-start;
+  background: #e8edf3;
+}
+
+.mensagem.erro {
+  align-self: flex-start;
+  background: #fde8e8;
+  color: #9b1c1c;
+}
+
+.mensagem.digitando {
+  font-style: italic;
+  opacity: 0.7;
+}
+
+.formulario {
+  display: flex;
+  gap: 8px;
+  padding: 12px 16px;
+  border-top: 1px solid #dde3ea;
+}
+
+.formulario input {
+  flex: 1;
+  padding: 10px 12px;
+  font-size: 1rem;
+  border: 1px solid #c3ccd6;
+  border-radius: 8px;
+}
+
+.formulario button {
+  padding: 10px 18px;
+  font-size: 1rem;
+  background: #e466d3;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.formulario button:disabled {
+  background: #9db9d3;
+  cursor: not-allowed;
+}
+
+footer {
+  padding: 8px 16px 12px;
+  font-size: 0.75rem;
+  color: #6b7785;
+  text-align: center;
+}
