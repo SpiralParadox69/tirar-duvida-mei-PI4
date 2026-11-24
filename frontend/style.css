@@ -116,3 +116,35 @@ footer {
   color: #6b7785;
   text-align: center;
 }
+
+.sugestoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 8px 16px;
+}
+
+.sugestoes[hidden] {
+  display: none;
+}
+
+.sugestao {
+  border: 1px solid #e066d6;
+  background: #fff;
+  color: #b13fa6;
+  border-radius: 16px;
+  padding: 6px 12px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.sugestao:hover {
+  background: #fbe9f9;
+}
+
+.aviso-lgpd {
+  margin: 8px 0 0;
+  font-size: 0.75rem;
+  color: #5f6368;
+  text-align: center;
+}

@@ -2,6 +2,7 @@ const formulario = document.getElementById("formulario");
 const campoPergunta = document.getElementById("pergunta");
 const botao = document.getElementById("botao");
 const areaMensagens = document.getElementById("mensagens");
+const areaSugestoes = document.getElementById("sugestoes");
 
 function adicionarMensagem(texto, tipo) {
   const div = document.createElement("div");
@@ -12,15 +13,11 @@ function adicionarMensagem(texto, tipo) {
   return div;
 }
 
-formulario.addEventListener("submit", async (evento) => {
-  evento.preventDefault();
-
-  const pergunta = campoPergunta.value.trim();
-  if (!pergunta) return;
-
+async function enviarPergunta(pergunta) {
   adicionarMensagem(pergunta, "usuario");
   campoPergunta.value = "";
   botao.disabled = true;
+  areaSugestoes.hidden = true;
 
   const aviso = adicionarMensagem("Digitando...", "assistente digitando");
 
@@ -45,4 +42,15 @@ formulario.addEventListener("submit", async (evento) => {
 
   botao.disabled = false;
   campoPergunta.focus();
+}
+
+formulario.addEventListener("submit", (evento) => {
+  evento.preventDefault();
+  const pergunta = campoPergunta.value.trim();
+  if (pergunta) enviarPergunta(pergunta);
+});
+
+areaSugestoes.addEventListener("click", (evento) => {
+  const sugestao = evento.target.closest(".sugestao");
+  if (sugestao && !botao.disabled) enviarPergunta(sugestao.textContent);
 });
