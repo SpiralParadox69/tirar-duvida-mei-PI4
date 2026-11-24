@@ -3,7 +3,7 @@
 - Casos: 14
 - Taxa de acerto: 100%
 - Taxa de erro: 0%
-- Tempo médio de resposta: 0.5s
+- Tempo médio de resposta: 0.6s
 
 | # | Tema | Pergunta | Resultado |
 |---|---|---|---|
