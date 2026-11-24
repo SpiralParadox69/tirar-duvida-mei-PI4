@@ -52,4 +52,4 @@ def test_sem_contexto_nao_chama_o_modelo():
 
 def test_montar_contexto_formata_perguntas_e_respostas():
     entradas = [{"pergunta": "P1?", "resposta": "R1."}]
-    assert montar_contexto(entradas) == "P1: P1?\nR: R1."
+    assert montar_contexto(entradas) == "P: P1?\nR: R1."
